@@ -6,3 +6,5 @@ for path in `ls -1 | grep .sql | sort`; do
 	sqlite3 < $path
 done
 
+./1_unique_add.sh
+
